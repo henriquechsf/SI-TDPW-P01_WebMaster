@@ -1,0 +1,167 @@
+body {
+	/* retirar a margem */
+	margin: 0;
+	font-family: Montserrat, Arial;
+}
+
+header {
+	/* largura */
+	width: 100%;
+	/* cor de fundo */
+	background: #FFF;
+	/* sombra */
+	box-shadow: 0px 0px 10px #CCC;
+	/*
+		1 valor - distancia esquerda direita
+		2 valor - distancia de cima p/ baixo
+		3 valor - opacidade
+		4 valor - cor
+	*/
+
+	/* altura */
+	height: 50px;
+	/* fixar o header no topo */
+	position: fixed;
+	padding: 10px 0;
+}
+
+nav {
+	/* jogar para a direita */
+	float: right;
+}
+
+/* formata a lista que está dentro da nav */
+nav ul{
+
+}
+
+/* formata o item da lista que está dentro da nav */
+nav ul li {
+	/* retira o marcador do item da lista */
+	list-style: none;
+	/* colocar ao lado do outro */
+	display: inline;
+}
+
+/* configuração do link no nav */
+nav ul li a {
+	/* troca tamanho de family */
+	font: 14px Montserrat, Arial, Tahoma;
+	/* trocar a cor da fonte */
+	color: #46AC63;
+	/* tirar sublinhado */
+	text-decoration: none;
+	/* margem */
+	margin: 10px;
+	/* deixar o texto em letras maiúsculas */
+	text-transform: uppercase;
+	/*
+		uppercase - tudo maiúsculo
+		lowercase - tudo minusculo
+		capitalize - primeiras letras maiúsculas
+	*/
+	/* deixar a letra negrito */
+	font-weight: bold;
+}
+
+/* mudar a cor do link ao passar o mouse */
+nav ul li a:hover {
+	color: #479686;
+}
+
+/* colar margem no logo - header */
+header img {
+	margin: 10px;
+}
+/* Titulo principal */
+h1{
+	font-size: 36px;
+	color: #479686;
+	text-align: center;
+	font-weight: bold;
+	margin: 30px 0;
+}
+
+footer{
+	background-color: #333;
+}
+
+/* formatar a classe banner
+as classes devem possuir um . antes do nome
+para diferenciar as classes das tags */
+.banner {
+	background: #f1f1f1;
+	text-align: center;
+	padding-top: 25px;
+}
+
+/* classe para centralizar um conteudo */
+.container {
+	width: 960px;
+	/* centralizar na tela */
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.item{
+	text-align: center;
+	padding: 10px;
+}
+
+.btn{
+	background-color: #479686;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px;
+	margin: auto;
+}
+
+/* clear para limpar/ignorar os floats
+colocar antes da tag dentro de uma div
+	clear: both;
+*/
+
+.center{
+	text-align: center;
+}
+.servicos{
+	padding: 30px 10px;
+}
+
+.depoimentos{
+	background-image: url(imagens/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 30px 10px;
+}
+
+.depoimentos img{
+	border-radius: 50%;
+	border: solid 5px #fff;
+}
+.clientes{
+	padding: 30px 10px;
+}
+
+/* RODAPE */
+footer{
+	color: #fff;
+	font-size: 14px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer .item{
+	text-align: left;
+	padding: 10px;
+}
+h2{
+	font-size: 16px;
+}
+footer .bottom{
+	text-align: center;
+	padding-bottom: 20px;
+}
