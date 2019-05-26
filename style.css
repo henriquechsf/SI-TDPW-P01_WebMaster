@@ -86,6 +86,10 @@ footer{
 	background-color: #333;
 }
 
+.item img{
+	margin: 20px;
+}
+
 /* formatar a classe banner
 as classes devem possuir um . antes do nome
 para diferenciar as classes das tags */
@@ -100,8 +104,13 @@ para diferenciar as classes das tags */
 	width: 960px;
 	/* centralizar na tela */
 	margin: auto;
+	
+}
+
+.main-item{
 	display: flex;
 	justify-content: space-around;
+	
 }
 
 .item{
@@ -178,7 +187,9 @@ footer .bottom{
 	padding: 80px;
 }
 
-.main-interna img{
+img.sobre{
 	float: left;
 	margin-right: 20px;
 }
+
+/*  */
