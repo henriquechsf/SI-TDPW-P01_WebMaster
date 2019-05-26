@@ -103,6 +103,7 @@ para diferenciar as classes das tags */
 	display: flex;
 	justify-content: space-around;
 }
+
 .item{
 	text-align: center;
 	padding: 10px;
@@ -121,6 +122,9 @@ para diferenciar as classes das tags */
 colocar antes da tag dentro de uma div
 	clear: both;
 */
+.clear{
+	clear: both;
+}
 
 .center{
 	text-align: center;
@@ -164,4 +168,17 @@ h2{
 footer .bottom{
 	text-align: center;
 	padding-bottom: 20px;
+}
+
+/* PG SOBRE */
+.main-interna {
+	width: 960px;
+	/* centralizar na tela */
+	margin: auto;
+	padding: 80px;
+}
+
+.main-interna img{
+	float: left;
+	margin-right: 20px;
 }
